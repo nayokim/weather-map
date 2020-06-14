@@ -1,0 +1,82 @@
+/** {*/
+/*    border: 1px solid red;*/
+/*}*/
+
+body {
+    background: url("../imgs/dark-cloud.jpeg") ;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+
+nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 80%;
+}
+
+form {
+    width: 90%;
+}
+
+p.h1 {
+    font-family: "montserrat", sans-serif;
+    font-weight: bolder;
+    color: #2c2d68;
+}
+
+p {
+    color: #2c2d68;
+    font-size: 0.99em;
+}
+
+#weather-info {
+    color: white;
+}
+
+.search-bar {
+    background-size: cover;
+    min-height: 180px;
+}
+
+.search-bar {
+    align-items: center;
+}
+
+.container-fluid {
+    background: url("/imgs/pexels-photo-917494.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.card {
+    color: #2c2d68;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*background-color: #dadbdd;*/
+}
+
+.card-header {
+    background-color: #c2b6b5;
+    color: white;
+}
+
+footer {
+    border-top: 1px solid grey;
+    color: #EDECE8;
+}
+
+.footer-links {
+    color: #EDECE8;
+}
+
+.footer-links:hover {
+    color: #4D6F99;
+}
+
+.icon-link {
+    color: #EDECE8;
+}
+
+.icon-link:hover {
+    color: #4D6F99;
+}
