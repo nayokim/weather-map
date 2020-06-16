@@ -2,6 +2,7 @@
 
 (function () {
 
+    //first load map load
     geocode("East Falls", OMW_MAPBOX_KEY).then(function (result) {
         console.log(result);
         mapboxgl.accessToken = OMW_MAPBOX_KEY;
@@ -47,6 +48,7 @@
             "q": q,
             "units": "imperial"
         }).done(function (data) {
+            console.log(data);
             renderHTML(data);
         }).fail(function (errors) {
             console.error(errors)

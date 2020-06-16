@@ -7,6 +7,7 @@ body {
     background-size: 100% 100%;
     min-height: 100vh;
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -44,7 +45,7 @@ p {
 }
 
 .container-fluid {
-    background: url("/imgs/pexels-photo-917494.jpeg") no-repeat center center;
+    /*background: url("/imgs/pexels-photo-917494.jpeg") no-repeat center center;*/
     background-size: cover;
     height: 100%;
 }
